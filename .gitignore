@@ -1,0 +1,6 @@
+target/
+build/
+.wrangler/
+.dev.vars
+*.env
+.DS_Store

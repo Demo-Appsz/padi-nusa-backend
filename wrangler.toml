@@ -1,0 +1,9 @@
+name = "padi-nusa-backend"
+main = "build/worker/shim.mjs"
+compatibility_date = "2026-11-25"
+
+[build]
+command = "worker-build --release . --features cloudflare --no-default-features"
+
+[vars]
+SUPABASE_URL = "https://loqqquaehrpyvfeyensz.supabase.co"
