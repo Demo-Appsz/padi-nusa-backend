@@ -33,7 +33,7 @@ tokio = { version = "1", features = ["full"], optional = true }
 tower-http = { version = "0.6", features = ["cors", "trace"], optional = true }
 
 # Cloudflare Workers Adapter (WASM)
-worker = { version = "0.7", optional = true }
+worker = { version = "0.8.7", optional = true }
 
 [dev-dependencies]
 tower = { version = "0.5", features = ["util"] }
